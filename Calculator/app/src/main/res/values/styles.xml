@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="calc_button_digit">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">85sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/color_button_digit</item>
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="android:background">@drawable/button_digit</item>
+        <item name="android:layout_marginTop">8sp</item>
+        <item name="android:layout_marginRight">8sp</item>
+        <item name="android:layout_marginBottom">8sp</item>
+        <item name="android:layout_marginLeft">8sp</item>
+    </style>
+
+    <style name="calc_button_operation">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">85sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/color_button_operation</item>
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="android:background">@drawable/button_digit</item>
+        <item name="android:layout_marginTop">8sp</item>
+        <item name="android:layout_marginRight">8sp</item>
+        <item name="android:layout_marginBottom">8sp</item>
+        <item name="android:layout_marginLeft">8sp</item>
+    </style>
+</resources>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/color_background_app"
+    tools:context=".MainActivity">
+
+<!--    input field-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:fontFamily="@font/manrope_bold"
+        android:gravity="right|center_vertical"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp"
+        android:text="@string/start_result_field"
+        android:textColor="@color/color_result_field"
+        android:textSize="68sp" />
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="240sp"
+        android:orientation="vertical">
+
+        <!-- 1st row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/clear_text"
+                style="@style/calc_button_operation"
+                android:textColor="@color/color_button_clear"
+                android:text="@string/button_clear"/>
+
+            <Button
+                android:id="@+id/zero"
+                style="@style/calc_button_digit"
+                android:text="@string/button_zero"/>
+
+            <Button
+                style="@style/calc_button_operation"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/division"
+                style="@style/calc_button_operation"
+                android:text="@string/button_division" />
+        </LinearLayout>
+
+        <!-- 2nd row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/seven"
+                style="@style/calc_button_digit"
+                android:text="@string/button_seven" />
+
+            <Button
+                android:id="@+id/eight"
+                style="@style/calc_button_digit"
+                android:text="@string/button_eight" />
+
+            <Button
+                android:id="@+id/nine"
+                style="@style/calc_button_digit"
+                android:text="@string/button_nine" />
+
+            <Button
+                android:id="@+id/multiply"
+                style="@style/calc_button_operation"
+                android:text="@string/button_multiply" />
+        </LinearLayout>
+
+        <!-- 3rd row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/four"
+                style="@style/calc_button_digit"
+                android:text="@string/button_four" />
+
+            <Button
+                android:id="@+id/five"
+                style="@style/calc_button_digit"
+                android:text="@string/button_five" />
+
+            <Button
+                android:id="@+id/six"
+                style="@style/calc_button_digit"
+                android:text="@string/button_six" />
+
+            <Button
+                android:id="@+id/minus"
+                style="@style/calc_button_operation"
+                android:text="@string/button_minus" />
+        </LinearLayout>
+
+        <!-- 4th row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/one"
+                style="@style/calc_button_digit"
+                android:text="@string/button_one" />
+
+            <Button
+                android:id="@+id/two"
+                style="@style/calc_button_digit"
+                android:text="@string/button_two" />
+
+            <Button
+                android:id="@+id/three"
+                style="@style/calc_button_digit"
+                android:text="@string/button_three" />
+
+            <Button
+                android:id="@+id/plus"
+                style="@style/calc_button_operation"
+                android:text="@string/button_plus" />
+        </LinearLayout>
+
+
+    <!-- 5th row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/equal"
+            style="@style/calc_button_operation"
+            android:backgroundTint="@color/color_shadow_button"
+            android:text="@string/button_equal" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

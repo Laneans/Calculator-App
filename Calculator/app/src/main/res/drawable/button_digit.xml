@@ -1,0 +1,14 @@
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="5dp" android:top="5dp">
+        <shape>
+            <corners android:radius="24dp" />
+            <solid android:color="@color/color_background_button" />
+        </shape>
+    </item>
+</selector>
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="color_result_field">#026CF1</color>
+   <color name="color_background_app">#FAFBFF</color>
+   <color name="color_background_button">#FFF</color>
+   <color name="color_shadow_button">#ECF0FF</color>
+   <color name="color_button_digit">#465160</color>
+   <color name="color_button_operation">#026CF1</color>
+   <color name="color_button_clear">#F64747</color>
+</resources>
